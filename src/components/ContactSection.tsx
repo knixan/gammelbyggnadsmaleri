@@ -1,5 +1,4 @@
-// src/components/ContactSection.tsx
-"use client"; // Markera denna komponent som en klientkomponent
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -30,7 +29,7 @@ const ContactSection = () => {
 
       if (response.ok) {
         setSubmitMessage(data.message || "Tack för ditt meddelande!");
-        // Återställ formuläret
+
         setName("");
         setEmail("");
         setPhone("");

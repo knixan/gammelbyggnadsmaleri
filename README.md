@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Namn:** Gammel Byggnadsmåleri
+**Plats:** Vadstena, Östergötland
+**Webbplats:** [kodochdesign.se](https://kodochdesign.se) (Din egen webbplats)
 
-## Getting Started
+---
 
-First, run the development server:
+## Om Projektet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Som frilansare hos **Kod & Design** är detta projekt ett exempel på hur jag skapar digitala lösningar som fångar essensen av mina kunders verksamhet. För Gammel Byggnadsmåleri har jag strävat efter att balansera det **traditionella och tidlösa** med ett **modernt och funktionellt** uttryck. Webbplatsen är byggd med Next.js för att erbjuda en robust och skalbar plattform.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Projektbilder
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Här är några bilder som visar upp webbplatsens design och Gammel Byggnadsmåleri's arbete:
 
-## Learn More
+![Fasadrestaurering](public/images/fasadrestaurering.png)
+*Detaljerad fasadmålning av sekelskifteshus.*
 
-To learn more about Next.js, take a look at the following resources:
+![Ådring på möbel](public/images/marmorimmitation.png)
+*Imitation av marmor på en antik byrå.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Interiörmålning](public/images/interiormålning.png)
+*Klassisk interiörmålning med linoljefärg.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Restaurering av gammal byggnad](public/images/restaurera.png)
+*Fokus på att bevara originalmaterial och historisk karaktär.*
 
-## Deploy on Vercel
+![Exempel på arbete 1](public/image1.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Exempel på arbete 2](public/image2.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Exempel på arbete 3](public/image3.png)
+
+![Exempel på arbete 4](public/image4.png)
+
+![Mockup av Gammel Byggnadsmåleri](public/mockup-gammelbyggnadsmaleri.jpg)
+*En överblick av webbplatsens design.*
+
+---
+
+## Filstruktur
+
+.
+├── public
+│   ├── images
+│   │   ├── fasadrestaurering.png
+│   │   ├── interiormålning.png
+│   │   ├── loggagammelbyggnad.png
+│   │   ├── marmorimmitation.png
+│   │   ├── restaurera.png
+│   │   └── traditionelltmaleri.png
+│   ├── image1.png
+│   ├── image2.png
+│   ├── image3.png
+│   ├── image4.png
+│   └── mockup-gammelbyggnadsmaleri.jpg
+├── src
+│   ├── app
+│   │   ├── api
+│   │   │   └── contact
+│   │   │       └── route.ts
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components
+│       ├── AboutUsSection.tsx
+│       ├── ContactForm.tsx
+│       ├── ContactSection.tsx
+│       ├── Footer.tsx
+│       ├── GallerySection.tsx
+│       ├── Header.tsx
+│       ├── HeroSection.tsx
+│       └── ServicesSection.tsx
+├── .env.local
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+
+
+---
+
+## Nyckelkomponenter
+
+* **Header:** Inkluderar företagets logotyp och navigationslänkar till olika sektioner på sidan.
+* **HeroSection:** En iögonfallande sektion med en bakgrundsbild som sätter tonen och en tydlig uppmaning till handling.
+* **AboutUsSection:** Ger information om Gammel Byggnadsmåleri, deras expertis inom traditionellt måleri och deras koppling till Vadstena.
+* **ServicesSection:** Beskriver de olika tjänster som erbjuds, med fokus på traditionella tekniker och material.
+* **GallerySection:** Visar upp tidigare projekt med bilder och korta beskrivningar för att illustrera företagets hantverksskicklighet.
+* **ContactSection:** Innehåller kontaktinformation och ett formulär för potentiella kunder att enkelt nå företaget.
+* **Footer:** Innehåller copyrightinformation och en omnämning av utvecklaren.
+
+---
+
+## Teknologier som används
+
+* **Next.js:** Ett React-ramverk för server-side rendering och statisk webbplatsgenerering.
+* **React:** Ett JavaScript-bibliotek för att bygga användargränssnitt.
+* **Tailwind CSS:** Ett utility-first CSS-ramverk för snabb och konsekvent styling.
+* **TypeScript:** Ett typsäkert superset av JavaScript som ger bättre kodkvalitet och utvecklarupplevelse.
+
+---
+
+## Utvecklare
+
+Denna webbplats är skapad av **Josefine Eriksson** som driver **Kod & Design** ([kodochdesign.se](https://kodochdesign.se)).
+
+---
+
+## Installation och Lokal Körning
+
+För att köra projektet lokalt, följ dessa steg:
+
+1.  **Klona repositoryt:**
+    ```bash
+    git clone [https://ejahoglund.se/blogg/bare-git-repository/](https://ejahoglund.se/blogg/bare-git-repository/)
+    cd gammelbyggnadsmaleri-webbplats
+    ```
+2.  **Installera beroenden:**
+    ```bash
+    npm install
+    # eller
+    yarn install
+    ```
+3.  **Skapa en `.env.local`-fil** i roten av projektet om du inte redan har en, och lägg till nödvändiga miljövariabler (t.ex. för e-posttjänster om du har en sådan integrerad).
+4.  **Starta utvecklingsservern:**
+    ```bash
+    npm run dev
+    # eller
+    yarn dev
+    ```
+5.  Öppna din webbläsare och gå till `http://localhost:3000`.
+
+---
+

@@ -28,7 +28,6 @@ const ContactForm = () => {
     e.preventDefault();
     setErrorMessage("");
 
-    // Enkel klientvalidering
     if (!formData.name.trim()) {
       setErrorMessage("Vänligen fyll i ditt namn.");
       setStatus("error");
