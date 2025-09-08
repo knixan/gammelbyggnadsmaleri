@@ -19,7 +19,7 @@ const GallerySection = () => {
       alt: "Interiörmålning med linoljefärg",
       title: "Interiörmålning",
       description:
-        "Klassisk interiörmålning med linoljefärg i ett gammalt hus.",
+        "Klassisk interiörmålning med linoljefärg och gammeldagsa tapeter i ett gammalt hus.",
     },
   ];
 

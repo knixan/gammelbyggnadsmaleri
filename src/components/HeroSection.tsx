@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section
       className="bg-cover bg-center h-screen flex items-center justify-center"
-      style={{ backgroundImage: "url('/images/Restaurera.png')" }}
+      style={{ backgroundImage: "url('/images/restaurera.png')" }}
     >
       <div className="text-center text-stone-50 bg-stone-800/50  p-8 rounded-lg">
         <h1 className="text-5xl font-bold mb-4">
