@@ -1,4 +1,4 @@
-**Namn:** Gammel Byggnadsmåleri
+**Namn:** Gammel Byggnadsmåleri Ericson & Söner AB
 **Plats:** Vadstena, Östergötland
 **Webbplats:** [Gammel Byggnadsmåleri](https://gammelbyggnadsmaleri.vercel.app/)) 
 
