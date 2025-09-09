@@ -19,7 +19,7 @@ const AboutSection = () => {
               Om Oss
             </h2>
             <p className="text-lg leading-relaxed mb-4 text-stone-600">
-              Gammel Byggnadsmåleri drivs av Andersson & Söner AB, erfarna och
+              Gammel Byggnadsmåleri drivs av Ericson & Söner AB, erfarna och
               passionerade målare med djupgående kunskap om traditionella
               måleritekniker och material. Med en kärlek till gamla byggnaders
               själ och karaktär, specialiserar vi oss på att bevara och

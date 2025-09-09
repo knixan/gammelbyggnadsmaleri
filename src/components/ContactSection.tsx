@@ -69,7 +69,7 @@ const ContactSection = () => {
             <p className="text-lg">
               <strong>Gammel Byggnadsmåleri</strong>
               <br />
-              Andersson & Söner AB
+              Ericson & Söner AB
               <br />
               Kyrkgränd 12B, 592 34 Vadstena
               <br />
