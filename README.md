@@ -6,7 +6,7 @@
 
 ## Om Projektet
 
-Som frilansare hos **Kod & Design** är detta projekt ett exempel på hur jag skapar digitala lösningar som fångar essensen av mina kunders verksamhet. För Gammel Byggnadsmåleri har jag strävat efter att balansera det **traditionella och tidlösa** med ett **modernt och funktionellt** uttryck. Webbplatsen är byggd med Next.js för att erbjuda en robust och skalbar plattform.
+Detta projekt är ett exempel på hur jag skapar digitala lösningar som fångar essensen av mina kunders verksamhet. För Gammel Byggnadsmåleri har jag strävat efter att balansera det **traditionella och tidlösa** med ett **modernt och funktionellt** uttryck. Webbplatsen är byggd med Next.js för att erbjuda en robust och skalbar plattform.
 
 ---
 
